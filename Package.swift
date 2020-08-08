@@ -29,8 +29,5 @@ let package = Package(
             cSettings: [
                 .headerSearchPath("Core"),
             ]),
-        .testTarget(
-            name: "McPickerTests",
-            dependencies: ["McPicker"]),
     ]
 )
