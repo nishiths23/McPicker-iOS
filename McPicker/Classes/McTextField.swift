@@ -20,6 +20,8 @@
  THE SOFTWARE.
  */
 
+import UIKit
+
 open class McTextField: UITextField {
 
     public var doneHandler: McPicker.DoneHandler = { _ in }
